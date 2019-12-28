@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ResolvedMatchingContract Include=".\LastMajorVersionBinary\ApiCompatExample.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.ApiCompat" Version="5.0.0-beta.19557.20" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
